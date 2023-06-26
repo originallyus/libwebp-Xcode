@@ -10,9 +10,10 @@ Pod::Spec.new do |s|
   s.compiler_flags = '-D_THREAD_SAFE'
   s.requires_arc = false
 
-
+  s.osx.deployment_target = '10.10'
   s.ios.deployment_target = '9.0'
-
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
   s.pod_target_xcconfig = {
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libwebp/ ${PODS_TARGET_SRCROOT}/'
@@ -39,4 +40,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'src/mux/*.{h,c}', 'src/webp/mux.h'
     ss.public_header_files = 'src/webp/mux.h'
   end
+
+  # fix #include <inttypes.h> cause 'Include of non-modular header inside framework module error'
+  s.prepare_command = <<-CMD
+                      sed -i.bak 's/<inttypes.h>/<stdint.h>/g' './src/webp/types.h'
+                      CMD
 end
