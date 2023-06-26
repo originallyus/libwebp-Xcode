@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 #sed -i.bak 's/<inttypes.h>/<stdint.h>/g' '/src/webp/types.h'
 
   # fix #include <inttypes.h> cause 'Include of non-modular header inside framework module error'
-  s.prepare_command = <<-CMD
-                          touch hhhh.h
-                      CMD
+  # s.prepare_command = <<-CMD
+  #                         # touch hhhh.h
+  #                     CMD
 end
