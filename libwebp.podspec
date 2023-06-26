@@ -40,11 +40,10 @@ Pod::Spec.new do |s|
     ss.source_files = 'src/mux/*.{h,c}', 'src/webp/mux.h'
     ss.public_header_files = 'src/webp/mux.h'
   end
+#sed -i.bak 's/<inttypes.h>/<stdint.h>/g' '/src/webp/types.h'
 
   # fix #include <inttypes.h> cause 'Include of non-modular header inside framework module error'
   s.prepare_command = <<-CMD
-                      pwd
-
-                      sed -i.bak 's/<inttypes.h>/<stdint.h>/g' './libwebp/src/webp/types.h'
+                          touch hhhh.h
                       CMD
 end
