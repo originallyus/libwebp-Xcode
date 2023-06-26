@@ -411,7 +411,6 @@
 				804BDE06213568F500BA3395 /* Xcode */,
 				80C1D52B213570EC007974F5 /* libwebpExample */,
 				804BDE05213568F500BA3395 /* Products */,
-				80C1D53321357117007974F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -669,13 +668,6 @@
 				80C1D52C213570EC007974F5 /* main.m */,
 			);
 			path = libwebpExample;
-			sourceTree = "<group>";
-		};
-		80C1D53321357117007974F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
