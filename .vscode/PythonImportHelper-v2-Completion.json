@@ -1,0 +1,413 @@
+[
+    {
+        "label": "version_info",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "distutils.core",
+        "description": "distutils.core",
+        "isExtraImport": true,
+        "detail": "distutils.core",
+        "documentation": {}
+    },
+    {
+        "label": "Extension",
+        "importPath": "distutils.extension",
+        "description": "distutils.extension",
+        "isExtraImport": true,
+        "detail": "distutils.extension",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess2",
+        "description": "subprocess2",
+        "detail": "subprocess2",
+        "documentation": {}
+    },
+    {
+        "label": "WebPGetDecoderVersion",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPGetDecoderVersion():\n    \"\"\"WebPGetDecoderVersion() -> int\"\"\"\n    return _libwebp.WebPGetDecoderVersion()\ndef WebPGetInfo(data):\n    \"\"\"WebPGetInfo(uint8_t data) -> (width, height)\"\"\"\n    return _libwebp.WebPGetInfo(data)\ndef WebPDecodeRGB(data):\n    \"\"\"WebPDecodeRGB(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeRGB(data)\ndef WebPDecodeRGBA(data):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPGetInfo",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPGetInfo(data):\n    \"\"\"WebPGetInfo(uint8_t data) -> (width, height)\"\"\"\n    return _libwebp.WebPGetInfo(data)\ndef WebPDecodeRGB(data):\n    \"\"\"WebPDecodeRGB(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeRGB(data)\ndef WebPDecodeRGBA(data):\n    \"\"\"WebPDecodeRGBA(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeRGBA(data)\ndef WebPDecodeARGB(data):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPDecodeRGB",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPDecodeRGB(data):\n    \"\"\"WebPDecodeRGB(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeRGB(data)\ndef WebPDecodeRGBA(data):\n    \"\"\"WebPDecodeRGBA(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeRGBA(data)\ndef WebPDecodeARGB(data):\n    \"\"\"WebPDecodeARGB(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeARGB(data)\ndef WebPDecodeBGR(data):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPDecodeRGBA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPDecodeRGBA(data):\n    \"\"\"WebPDecodeRGBA(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeRGBA(data)\ndef WebPDecodeARGB(data):\n    \"\"\"WebPDecodeARGB(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeARGB(data)\ndef WebPDecodeBGR(data):\n    \"\"\"WebPDecodeBGR(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeBGR(data)\ndef WebPDecodeBGRA(data):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPDecodeARGB",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPDecodeARGB(data):\n    \"\"\"WebPDecodeARGB(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeARGB(data)\ndef WebPDecodeBGR(data):\n    \"\"\"WebPDecodeBGR(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeBGR(data)\ndef WebPDecodeBGRA(data):\n    \"\"\"WebPDecodeBGRA(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeBGRA(data)\ndef WebPGetEncoderVersion():",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPDecodeBGR",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPDecodeBGR(data):\n    \"\"\"WebPDecodeBGR(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeBGR(data)\ndef WebPDecodeBGRA(data):\n    \"\"\"WebPDecodeBGRA(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeBGRA(data)\ndef WebPGetEncoderVersion():\n    \"\"\"WebPGetEncoderVersion() -> int\"\"\"\n    return _libwebp.WebPGetEncoderVersion()\ndef wrap_WebPEncodeRGB(rgb, unused1, unused2, width, height, stride, quality_factor):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPDecodeBGRA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPDecodeBGRA(data):\n    \"\"\"WebPDecodeBGRA(uint8_t data) -> (rgb, width, height)\"\"\"\n    return _libwebp.WebPDecodeBGRA(data)\ndef WebPGetEncoderVersion():\n    \"\"\"WebPGetEncoderVersion() -> int\"\"\"\n    return _libwebp.WebPGetEncoderVersion()\ndef wrap_WebPEncodeRGB(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeRGB(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeBGR(rgb, unused1, unused2, width, height, stride, quality_factor):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPGetEncoderVersion",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPGetEncoderVersion():\n    \"\"\"WebPGetEncoderVersion() -> int\"\"\"\n    return _libwebp.WebPGetEncoderVersion()\ndef wrap_WebPEncodeRGB(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeRGB(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeBGR(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeBGR(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeRGBA(rgb, unused1, unused2, width, height, stride, quality_factor):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeRGB",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeRGB(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeRGB(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeBGR(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeBGR(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeRGBA(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeRGBA(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeBGRA(rgb, unused1, unused2, width, height, stride, quality_factor):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeBGR",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeBGR(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeBGR(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeRGBA(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeRGBA(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeBGRA(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeBGRA(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeLosslessRGB(rgb, unused1, unused2, width, height, stride):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeRGBA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeRGBA(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeRGBA(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeBGRA(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeBGRA(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeLosslessRGB(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessRGB(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessBGR(rgb, unused1, unused2, width, height, stride):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeBGRA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeBGRA(rgb, unused1, unused2, width, height, stride, quality_factor):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeBGRA(rgb, unused1, unused2, width, height, stride, quality_factor)\ndef wrap_WebPEncodeLosslessRGB(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessRGB(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessBGR(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessBGR(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessRGBA(rgb, unused1, unused2, width, height, stride):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeLosslessRGB",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeLosslessRGB(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessRGB(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessBGR(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessBGR(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessRGBA(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessRGBA(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessBGRA(rgb, unused1, unused2, width, height, stride):",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeLosslessBGR",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeLosslessBGR(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessBGR(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessRGBA(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessRGBA(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessBGRA(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessBGRA(rgb, unused1, unused2, width, height, stride)\n_UNUSED = 1",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeLosslessRGBA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeLosslessRGBA(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessRGBA(rgb, unused1, unused2, width, height, stride)\ndef wrap_WebPEncodeLosslessBGRA(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessBGRA(rgb, unused1, unused2, width, height, stride)\n_UNUSED = 1\ndef WebPEncodeRGB(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeRGB(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeRGB(",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "wrap_WebPEncodeLosslessBGRA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def wrap_WebPEncodeLosslessBGRA(rgb, unused1, unused2, width, height, stride):\n    \"\"\"private, do not call directly.\"\"\"\n    return _libwebp.wrap_WebPEncodeLosslessBGRA(rgb, unused1, unused2, width, height, stride)\n_UNUSED = 1\ndef WebPEncodeRGB(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeRGB(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeRGB(\n      rgb, _UNUSED, _UNUSED, width, height, stride, quality_factor)\n  if len(webp[0]) == 0:\n    return None",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeRGB",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeRGB(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeRGB(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeRGB(\n      rgb, _UNUSED, _UNUSED, width, height, stride, quality_factor)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeRGBA(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeRGBA(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeRGBA(",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeRGBA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeRGBA(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeRGBA(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeRGBA(\n      rgb, _UNUSED, _UNUSED, width, height, stride, quality_factor)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeBGR(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeBGR(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeBGR(",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeBGR",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeBGR(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeBGR(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeBGR(\n      rgb, _UNUSED, _UNUSED, width, height, stride, quality_factor)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeBGRA(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeBGRA(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeBGRA(",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeBGRA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeBGRA(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeBGRA(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeBGRA(\n      rgb, _UNUSED, _UNUSED, width, height, stride, quality_factor)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeLosslessRGB(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessRGB(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessRGB(rgb, _UNUSED, _UNUSED, width, height, stride)",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeLosslessRGB",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeLosslessRGB(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessRGB(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessRGB(rgb, _UNUSED, _UNUSED, width, height, stride)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeLosslessRGBA(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessRGBA(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessRGBA(rgb, _UNUSED, _UNUSED, width, height, stride)\n  if len(webp[0]) == 0:",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeLosslessRGBA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeLosslessRGBA(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessRGBA(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessRGBA(rgb, _UNUSED, _UNUSED, width, height, stride)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeLosslessBGR(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessBGR(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessBGR(rgb, _UNUSED, _UNUSED, width, height, stride)\n  if len(webp[0]) == 0:",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeLosslessBGR",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeLosslessBGR(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessBGR(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessBGR(rgb, _UNUSED, _UNUSED, width, height, stride)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeLosslessBGRA(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessBGRA(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessBGRA(rgb, _UNUSED, _UNUSED, width, height, stride)\n  if len(webp[0]) == 0:",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "WebPEncodeLosslessBGRA",
+        "kind": 2,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "def WebPEncodeLosslessBGRA(rgb, width, height, stride):\n  \"\"\"WebPEncodeLosslessBGRA(uint8_t rgb, int width, int height, int stride) -> lossless_webp\"\"\"\n  webp = wrap_WebPEncodeLosslessBGRA(rgb, _UNUSED, _UNUSED, width, height, stride)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\n# This file is compatible with both classic and new-style classes.",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "_UNUSED",
+        "kind": 5,
+        "importPath": "libwebp.swig.libwebp",
+        "description": "libwebp.swig.libwebp",
+        "peekOfCode": "_UNUSED = 1\ndef WebPEncodeRGB(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeRGB(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"\n  webp = wrap_WebPEncodeRGB(\n      rgb, _UNUSED, _UNUSED, width, height, stride, quality_factor)\n  if len(webp[0]) == 0:\n    return None\n  return webp[0]\ndef WebPEncodeRGBA(rgb, width, height, stride, quality_factor):\n  \"\"\"WebPEncodeRGBA(uint8_t rgb, int width, int height, int stride, float quality_factor) -> lossy_webp\"\"\"",
+        "detail": "libwebp.swig.libwebp",
+        "documentation": {}
+    },
+    {
+        "label": "tmpdir",
+        "kind": 5,
+        "importPath": "libwebp.swig.setup",
+        "description": "libwebp.swig.setup",
+        "peekOfCode": "tmpdir = tempfile.mkdtemp()\npackage = \"com.google.webp\"\npackage_path = os.path.join(tmpdir, *package.split(\".\"))\nos.makedirs(package_path)\n# Create __init_.py files along the package path.\ninitpy_path = tmpdir\nfor d in package.split(\".\"):\n  initpy_path = os.path.join(initpy_path, d)\n  open(os.path.join(initpy_path, \"__init__.py\"), \"w\").close()\nshutil.copy2(\"libwebp.py\", package_path)",
+        "detail": "libwebp.swig.setup",
+        "documentation": {}
+    },
+    {
+        "label": "package",
+        "kind": 5,
+        "importPath": "libwebp.swig.setup",
+        "description": "libwebp.swig.setup",
+        "peekOfCode": "package = \"com.google.webp\"\npackage_path = os.path.join(tmpdir, *package.split(\".\"))\nos.makedirs(package_path)\n# Create __init_.py files along the package path.\ninitpy_path = tmpdir\nfor d in package.split(\".\"):\n  initpy_path = os.path.join(initpy_path, d)\n  open(os.path.join(initpy_path, \"__init__.py\"), \"w\").close()\nshutil.copy2(\"libwebp.py\", package_path)\nsetup(name=\"libwebp\",",
+        "detail": "libwebp.swig.setup",
+        "documentation": {}
+    },
+    {
+        "label": "package_path",
+        "kind": 5,
+        "importPath": "libwebp.swig.setup",
+        "description": "libwebp.swig.setup",
+        "peekOfCode": "package_path = os.path.join(tmpdir, *package.split(\".\"))\nos.makedirs(package_path)\n# Create __init_.py files along the package path.\ninitpy_path = tmpdir\nfor d in package.split(\".\"):\n  initpy_path = os.path.join(initpy_path, d)\n  open(os.path.join(initpy_path, \"__init__.py\"), \"w\").close()\nshutil.copy2(\"libwebp.py\", package_path)\nsetup(name=\"libwebp\",\n      version=\"0.0\",",
+        "detail": "libwebp.swig.setup",
+        "documentation": {}
+    },
+    {
+        "label": "initpy_path",
+        "kind": 5,
+        "importPath": "libwebp.swig.setup",
+        "description": "libwebp.swig.setup",
+        "peekOfCode": "initpy_path = tmpdir\nfor d in package.split(\".\"):\n  initpy_path = os.path.join(initpy_path, d)\n  open(os.path.join(initpy_path, \"__init__.py\"), \"w\").close()\nshutil.copy2(\"libwebp.py\", package_path)\nsetup(name=\"libwebp\",\n      version=\"0.0\",\n      description=\"libwebp python wrapper\",\n      long_description=\"Provides access to 'simple' libwebp decode interface\",\n      license=\"BSD\",",
+        "detail": "libwebp.swig.setup",
+        "documentation": {}
+    },
+    {
+        "label": "CheckChangeOnUpload",
+        "kind": 2,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "def CheckChangeOnUpload(input_api, output_api):\n  results = []\n  results.extend(_CommonChecks(input_api, output_api))\n  return results\ndef CheckChangeOnCommit(input_api, output_api):\n  results = []\n  results.extend(_CommonChecks(input_api, output_api))\n  return results",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "CheckChangeOnCommit",
+        "kind": 2,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "def CheckChangeOnCommit(input_api, output_api):\n  results = []\n  results.extend(_CommonChecks(input_api, output_api))\n  return results",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "USE_PYTHON3",
+        "kind": 5,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "USE_PYTHON3 = True\n_BASH_INDENTATION = \"2\"\n_GIT_COMMIT_SUBJECT_LENGTH = 65\n_INCLUDE_BASH_FILES_ONLY = [r\".*\\.sh$\"]\n_INCLUDE_MAN_FILES_ONLY = [r\"man/.+\\.1$\"]\n_INCLUDE_SOURCE_FILES_ONLY = [r\".*\\.[ch]$\"]\n_LIBWEBP_MAX_LINE_LENGTH = 80\ndef _CheckCommitSubjectLength(input_api, output_api):\n  \"\"\"Ensures commit's subject length is no longer than 65 chars.\"\"\"\n  name = \"git-commit subject\"",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "_BASH_INDENTATION",
+        "kind": 5,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "_BASH_INDENTATION = \"2\"\n_GIT_COMMIT_SUBJECT_LENGTH = 65\n_INCLUDE_BASH_FILES_ONLY = [r\".*\\.sh$\"]\n_INCLUDE_MAN_FILES_ONLY = [r\"man/.+\\.1$\"]\n_INCLUDE_SOURCE_FILES_ONLY = [r\".*\\.[ch]$\"]\n_LIBWEBP_MAX_LINE_LENGTH = 80\ndef _CheckCommitSubjectLength(input_api, output_api):\n  \"\"\"Ensures commit's subject length is no longer than 65 chars.\"\"\"\n  name = \"git-commit subject\"\n  cmd = [\"git\", \"log\", \"-1\", \"--pretty=%s\"]",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "_GIT_COMMIT_SUBJECT_LENGTH",
+        "kind": 5,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "_GIT_COMMIT_SUBJECT_LENGTH = 65\n_INCLUDE_BASH_FILES_ONLY = [r\".*\\.sh$\"]\n_INCLUDE_MAN_FILES_ONLY = [r\"man/.+\\.1$\"]\n_INCLUDE_SOURCE_FILES_ONLY = [r\".*\\.[ch]$\"]\n_LIBWEBP_MAX_LINE_LENGTH = 80\ndef _CheckCommitSubjectLength(input_api, output_api):\n  \"\"\"Ensures commit's subject length is no longer than 65 chars.\"\"\"\n  name = \"git-commit subject\"\n  cmd = [\"git\", \"log\", \"-1\", \"--pretty=%s\"]\n  start = input_api.time.time()",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "_INCLUDE_BASH_FILES_ONLY",
+        "kind": 5,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "_INCLUDE_BASH_FILES_ONLY = [r\".*\\.sh$\"]\n_INCLUDE_MAN_FILES_ONLY = [r\"man/.+\\.1$\"]\n_INCLUDE_SOURCE_FILES_ONLY = [r\".*\\.[ch]$\"]\n_LIBWEBP_MAX_LINE_LENGTH = 80\ndef _CheckCommitSubjectLength(input_api, output_api):\n  \"\"\"Ensures commit's subject length is no longer than 65 chars.\"\"\"\n  name = \"git-commit subject\"\n  cmd = [\"git\", \"log\", \"-1\", \"--pretty=%s\"]\n  start = input_api.time.time()\n  proc = subprocess2.Popen(",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "_INCLUDE_MAN_FILES_ONLY",
+        "kind": 5,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "_INCLUDE_MAN_FILES_ONLY = [r\"man/.+\\.1$\"]\n_INCLUDE_SOURCE_FILES_ONLY = [r\".*\\.[ch]$\"]\n_LIBWEBP_MAX_LINE_LENGTH = 80\ndef _CheckCommitSubjectLength(input_api, output_api):\n  \"\"\"Ensures commit's subject length is no longer than 65 chars.\"\"\"\n  name = \"git-commit subject\"\n  cmd = [\"git\", \"log\", \"-1\", \"--pretty=%s\"]\n  start = input_api.time.time()\n  proc = subprocess2.Popen(\n      cmd,",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "_INCLUDE_SOURCE_FILES_ONLY",
+        "kind": 5,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "_INCLUDE_SOURCE_FILES_ONLY = [r\".*\\.[ch]$\"]\n_LIBWEBP_MAX_LINE_LENGTH = 80\ndef _CheckCommitSubjectLength(input_api, output_api):\n  \"\"\"Ensures commit's subject length is no longer than 65 chars.\"\"\"\n  name = \"git-commit subject\"\n  cmd = [\"git\", \"log\", \"-1\", \"--pretty=%s\"]\n  start = input_api.time.time()\n  proc = subprocess2.Popen(\n      cmd,\n      stderr=subprocess2.PIPE,",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    },
+    {
+        "label": "_LIBWEBP_MAX_LINE_LENGTH",
+        "kind": 5,
+        "importPath": "libwebp.PRESUBMIT",
+        "description": "libwebp.PRESUBMIT",
+        "peekOfCode": "_LIBWEBP_MAX_LINE_LENGTH = 80\ndef _CheckCommitSubjectLength(input_api, output_api):\n  \"\"\"Ensures commit's subject length is no longer than 65 chars.\"\"\"\n  name = \"git-commit subject\"\n  cmd = [\"git\", \"log\", \"-1\", \"--pretty=%s\"]\n  start = input_api.time.time()\n  proc = subprocess2.Popen(\n      cmd,\n      stderr=subprocess2.PIPE,\n      stdout=subprocess2.PIPE,",
+        "detail": "libwebp.PRESUBMIT",
+        "documentation": {}
+    }
+]

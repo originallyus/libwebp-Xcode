@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     'USER_HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libwebp/ ${PODS_TARGET_SRCROOT}/'
   }
   s.preserve_paths = 'src', 'sharpyuv'
-  s.default_subspecs = 'webp', 'demux', 'mux'
+  # s.default_subspecs = 'webp', 'demux', 'mux'
 
   # webp decoding && encoding
   s.subspec 'webp' do |ss|
