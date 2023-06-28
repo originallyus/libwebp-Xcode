@@ -30,15 +30,15 @@ Pod::Spec.new do |s|
   # animated webp decoding
   s.subspec 'demux' do |ss|
     ss.dependency 'libwebp/webp'
-    ss.source_files = 'src/demux/*.{h,c}', 'src/webp/demux.h'
-    ss.public_header_files = 'src/webp/demux.h'
+    ss.source_files = 'libwebp/src/demux/*.{h,c}', 'libwebp/src/webp/demux.h'
+    ss.public_header_files = 'libwebp/src/webp/demux.h'
   end
 
   # animated webp encoding
   s.subspec 'mux' do |ss|
     ss.dependency 'libwebp/demux'
-    ss.source_files = 'src/mux/*.{h,c}', 'src/webp/mux.h'
-    ss.public_header_files = 'src/webp/mux.h'
+    ss.source_files = 'libwebp/src/mux/*.{h,c}', 'libwebp/src/webp/mux.h'
+    ss.public_header_files = 'libwebp/src/webp/mux.h'
   end
 
   # fix #include <inttypes.h> cause 'Include of non-modular header inside framework module error'
