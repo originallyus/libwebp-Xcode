@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   # webp decoding && encoding
   s.subspec 'webp' do |ss|
-    ss.source_files = './libwebp/src/webp/decode.h', 'src/webp/encode.h', 'src/webp/types.h', 'src/webp/mux_types.h', 'src/webp/format_constants.h', 'src/utils/*.{h,c}', 'src/dsp/*.{h,c}', 'src/dec/*.{h,c}', 'src/enc/*.{h,c}', 'sharpyuv/*.{h,c}'
+    ss.source_files = 'libwebp/src/webp/decode.h', 'src/webp/encode.h', 'src/webp/types.h', 'src/webp/mux_types.h', 'src/webp/format_constants.h', 'src/utils/*.{h,c}', 'src/dsp/*.{h,c}', 'src/dec/*.{h,c}', 'src/enc/*.{h,c}', 'sharpyuv/*.{h,c}'
     ss.public_header_files = 'src/webp/decode.h', 'src/webp/encode.h', 'src/webp/types.h', 'src/webp/mux_types.h', 'src/webp/format_constants.h'
   end
 
