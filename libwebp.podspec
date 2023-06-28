@@ -23,27 +23,27 @@ Pod::Spec.new do |s|
 
   # webp decoding && encoding
   s.subspec 'webp' do |ss|
-    ss.source_files = 'libwebp/src/webp/decode.h', 'libwebp/src/webp/encode.h', 'libwebp/src/webp/types.h', 'libwebp/src/webp/mux_types.h', 'libwebp/src/webp/format_constants.h', 'libwebp/src/utils/*.{h,c}', 'libwebp/src/dsp/*.{h,c}', 'libwebp/src/dec/*.{h,c}', 'libwebp/src/enc/*.{h,c}', 'libwebp/sharpyuv/*.{h,c}'
-    ss.public_header_files = 'libwebp/src/webp/decode.h', 'libwebp/src/webp/encode.h', 'libwebp/src/webp/types.h', 'libwebp/src/webp/mux_types.h', 'libwebp/src/webp/format_constants.h'
+    ss.source_files = '**/*/webp/decode.h', '**/*/webp/encode.h', '**/*/webp/types.h', '**/*/webp/mux_types.h', '**/*/webp/format_constants.h', '**/*/utils/*.{h,c}', '**/*/dsp/*.{h,c}', '**/*/dec/*.{h,c}', '**/*/enc/*.{h,c}', '**/*/sharpyuv/*.{h,c}'
+    ss.public_header_files = '**/*/webp/decode.h', '**/*/webp/encode.h', '**/*/webp/types.h', '**/*/webp/mux_types.h', '**/*/webp/format_constants.h'
   end
 
   # animated webp decoding
   s.subspec 'demux' do |ss|
     ss.dependency 'libwebp/webp'
-    ss.source_files = 'libwebp/src/demux/*.{h,c}', 'libwebp/src/webp/demux.h'
-    ss.public_header_files = 'libwebp/src/webp/demux.h'
+    ss.source_files = '**/*/demux/*.{h,c}', '**/*/webp/demux.h'
+    ss.public_header_files = '**/*/webp/demux.h'
   end
 
   # animated webp encoding
   s.subspec 'mux' do |ss|
     ss.dependency 'libwebp/demux'
-    ss.source_files = 'libwebp/src/mux/*.{h,c}', 'libwebp/src/webp/mux.h'
-    ss.public_header_files = 'libwebp/src/webp/mux.h'
+    ss.source_files = '**/*/mux/*.{h,c}', '**/*/webp/mux.h'
+    ss.public_header_files = '**/*/webp/mux.h'
   end
 
 
   # fix #include <inttypes.h> cause 'Include of non-modular header inside framework module error'
   # s.prepare_command = <<-CMD
-  #                     sed -i.bak 's/<inttypes.h>/<stdint.h>/g' './libwebp/src/webp/types.h'
+  #                     sed -i.bak 's/<inttypes.h>/<stdint.h>/g' './**/*/webp/types.h'
   #                     CMD
 end
